@@ -12,4 +12,4 @@ def square_n_cube(num):
     return num ** 2, num ** 3
 
 def greet():
-    print("good afternoon")
+    print("good afternoon")             
