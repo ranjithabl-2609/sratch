@@ -1,8 +1,8 @@
 num = int(input("Enter a number: "))
-if num % 2 == 0:
-    print(f"{num} is even...")
-else:
+if num % 2 != 0:
     print(f"{num} is odd...")
+else:
+    print(f"{num} is even...")
     
 
 def palindrome(word):
